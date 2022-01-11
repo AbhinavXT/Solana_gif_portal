@@ -162,7 +162,7 @@ const Home = () => {
 	return (
 		<div className='flex flex-col items-center pt-20 bg-[#0B132B] text-[#d3d3d3] min-h-screen'>
 			<Head>
-				<title>Solana dapp</title>
+				<title>Cat GIFS</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 

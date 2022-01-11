@@ -1,0 +1,15 @@
+[programs.localnet]
+sol = "C9Yw2BoQWEiubK1MDaTUS3N6YGYeWi3ZUmW9nk6xuRHX"
+
+[programs.devnet]
+sol = "C9Yw2BoQWEiubK1MDaTUS3N6YGYeWi3ZUmW9nk6xuRHX"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/mindsky/.config/solana/id.json"
+
+[scripts]
+test = "node tests/sol.ts"

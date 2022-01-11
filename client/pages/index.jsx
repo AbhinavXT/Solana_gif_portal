@@ -178,10 +178,10 @@ const Home = () => {
 				</svg>
 			</div>
 
-			<div className='text-3xl font-bold mt-8'>GIF Portal</div>
+			<div className='text-3xl font-bold mt-8'>Cat Portal</div>
 
 			<div className='text-3xl font-bold mb-12 mt-12'>
-				View your GIF collection in the metaverse ✨
+				View your Cat GIF collection in the metaverse ✨
 			</div>
 
 			<div>

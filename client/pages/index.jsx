@@ -12,24 +12,13 @@ const Home = () => {
 	const [inputValue, setInputValue] = useState('')
 	const [gifList, setGifList] = useState([])
 
-	// const TEST_GIFS = [
-	// 	'https://c.tenor.com/gIaioChTOloAAAAM/cat-cute.gif',
-	// 	'https://c.tenor.com/PhhN-3LjE3AAAAAM/gatto-cibo.gif',
-	// 	'https://c.tenor.com/fh6juClXJGgAAAAM/%D9%82%D8%B7%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D9%8A.gif',
-	// 	'https://c.tenor.com/ujI068l1JL4AAAAM/sassy-cats.gif',
-	// ]
-
-	// SystemProgram is a reference to the Solana runtime!
 	const { SystemProgram, Keypair } = web3
 
-	// Get our program's id from the IDL file.
 	console.log(idl.metadata)
 	const programID = new PublicKey(idl.metadata.address)
 
-	// Set our network to devnet.
 	const network = clusterApiUrl('devnet')
 
-	// Controls how we want to acknowledge when a transaction is "done".
 	const opts = {
 		preflightCommitment: 'processed',
 	}

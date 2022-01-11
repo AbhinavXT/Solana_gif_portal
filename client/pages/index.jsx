@@ -162,7 +162,7 @@ const Home = () => {
 	return (
 		<div className='flex flex-col items-center pt-20 bg-[#0B132B] text-[#d3d3d3] min-h-screen'>
 			<Head>
-				<title>Cat GIFS</title>
+				<title>Solana GIFS</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
@@ -181,7 +181,7 @@ const Home = () => {
 			<div className='text-3xl font-bold mt-8'>Cat Portal</div>
 
 			<div className='text-3xl font-bold mb-12 mt-12'>
-				View your Cat GIF collection in the metaverse ✨
+				View your Solana GIF collection in the metaverse ✨
 			</div>
 
 			<div>

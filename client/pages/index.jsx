@@ -181,7 +181,7 @@ const Home = () => {
 			<div className='text-3xl font-bold mt-8'>Cat Station</div>
 
 			<div className='text-2xl font-bold mb-12 mt-12'>
-				(^-人-^) View your Cat GIF collection here (^-人-^)
+				✨ View your Cat GIF collection here ✨
 			</div>
 
 			<div>
